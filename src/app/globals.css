@@ -24,3 +24,16 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.bg-hero {
+  background-image: url(../../public/pexels-yankrukov-7792770.jpg) !important;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 800px) {
+  .bg-hero {
+    background-position: center ;
+  }
+}
