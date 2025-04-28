@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FaShoppingBag } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
@@ -33,7 +34,7 @@ function Header() {
                 <nav aria-label="Global" className="hidden md:block">
                 <ul className="flex items-center gap-6 text-sm">
                     <li>
-                        <a className="transition hover:text-gray-500/75" href="#"> Biznes rejalar </a>
+                        <Link href={'/mahsulotlar'} className="transition hover:text-gray-500/75"> Biznes rejalar </Link>
                     </li>
 
                     <li>

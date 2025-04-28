@@ -9,7 +9,7 @@ const mahsulotlar = [
         hujjat_turi: ['docx', 'pdf'],
         hujjat_hajmi: '1.4 mb',
         xodimlar: 0,
-        image: '../../public/mahsulotlar/qalampir.jpg'
+        image: '/mahsulotlar/qalampir.jpg'
     },
     {
         title: 'FOOD TRUCK sotib olish hamda aholiga tez ovqatlanish xizmatlari koʻrsatish faoliyatini yoʻlga qoʻyish biznes rejasi (uzb)',
@@ -21,7 +21,7 @@ const mahsulotlar = [
         hujjat_turi: ['docx'],
         hujjat_hajmi: '942.4 kb',
         xodimlar: 0,
-        image: '../../public/mahsulotlar/Food-track.jpg'
+        image: '/mahsulotlar/Food-track.jpg'
     },
     {
         title: 'Oq qand ishlab chiqarish faoliyatini yoʻlga qoʻyish  biznes rejasi (uzb)',
@@ -33,7 +33,7 @@ const mahsulotlar = [
         hujjat_turi: ['doc'],
         hujjat_hajmi: '676.3 kb',
         xodimlar: 2,
-        image: '../../public/mahsulotlar/qand.jpg'
+        image: '/mahsulotlar/qand.jpg'
     },
     {
         title: "SAMOMOYKA (oʻz- oʻziga xizmat koʻrsatuvchi avtomoyka) biznes rejasi (uzb)",
@@ -45,7 +45,7 @@ const mahsulotlar = [
         hujjat_turi: ['doc'],
         hujjat_hajmi: '2.8 mb',
         xodimlar: 0,
-        image: '../../public/mahsulotlar/Samoyka.jpg'
+        image: '/mahsulotlar/Samoyka.jpg'
     },
     {
         title: "Repititorlik faoliyatini yoʻlga qoʻyish biznes rejasi (uzb) ",
@@ -57,7 +57,7 @@ const mahsulotlar = [
         hujjat_turi: ['doc'],
         hujjat_hajmi: '362.4 kb',
         xodimlar: 2,
-        image: '../../public/mahsulotlar/Repititor.jpg'
+        image: '/mahsulotlar/Repititor.jpg'
     },
     {
         title: "O'rik bogʻi tashkil etish biznes rejasi (uzb) ",
@@ -69,7 +69,7 @@ const mahsulotlar = [
         hujjat_turi: ['doc'],
         hujjat_hajmi: '903.4 kb',
         xodimlar: 3,
-        image: "../../public/mahsulotlar/O'rik.jpg"
+        image: "/mahsulotlar/O'rik.jpg"
     },
     {
         title: "Parrandachilik (broyler) faoliyatini yoʻlga qoʻyish biznes rejasi (uzb)  ",
@@ -81,7 +81,7 @@ const mahsulotlar = [
         hujjat_turi: ['doc'],
         hujjat_hajmi: '729.4 kb',
         xodimlar: 4,
-        image: "../../public/mahsulotlar/Parrandachilik.jpg"
+        image: "/mahsulotlar/Parrandachilik.jpg"
     },
     {
         title: "XUSUSIY BOLALAR BOG'CHASINI JIHOZLASH BIZNES REJASI (uzb) ",
@@ -93,7 +93,7 @@ const mahsulotlar = [
         hujjat_turi: ['doc'],
         hujjat_hajmi: '291.4 kb',
         xodimlar: 0,
-        image: "../../public/mahsulotlar/Bog'cha.jpg"
+        image: "/mahsulotlar/Bog'cha.jpg"
     },
     {
         title: "Gilam yuvish xizmatlari faoliyatini yoʻlga qoʻyish  biznes rejasi (uzb) ",
@@ -105,7 +105,7 @@ const mahsulotlar = [
         hujjat_turi: ['doc'],
         hujjat_hajmi: '1.1 mb',
         xodimlar: 0,
-        image: "../../public/mahsulotlar/Gilam yuvish.jpg"
+        image: "/mahsulotlar/Gilam yuvish.jpg"
     },
     {
         title: "Nonvoychilik faoliyatini yoʻlga qoʻyish biznes rejasi (uzb) ",
@@ -117,7 +117,7 @@ const mahsulotlar = [
         hujjat_turi: ['doc'],
         hujjat_hajmi: '1.5 mb',
         xodimlar: 4,
-        image: "../../public/mahsulotlar/Gilam yuvish.jpg"
+        image: "/mahsulotlar/Novvoychilik.jpg"
     },
     {
         title: "Qandolatchilik mahsulotlari ishlab chiqarish biznes rejasi (uzb)  ",
@@ -129,7 +129,7 @@ const mahsulotlar = [
         hujjat_turi: ['docx'],
         hujjat_hajmi: '291.0 kb',
         xodimlar: 4,
-        image: "../../public/mahsulotlar/Qandolatchilik.jpg"
+        image: "/mahsulotlar/Qandolatchilik.jpg"
     },
     {
         title: "Chorvachilik faoliyatini yoʻlga qoʻyish biznes rejasi (uzb) ",
@@ -141,7 +141,7 @@ const mahsulotlar = [
         hujjat_turi: ['docx', 'pdf'],
         hujjat_hajmi: '644.5 kb',
         xodimlar: 0,
-        image: "../../public/mahsulotlar/Chorvachilik.jpg"
+        image: "/mahsulotlar/Chorvachilik.jpg"
     },
     {
         title: "Alyuminiy profildan eshik va romlar ishlab chiqarish biznes rejasi (uzb)  ",
@@ -153,7 +153,7 @@ const mahsulotlar = [
         hujjat_turi: ['doc'],
         hujjat_hajmi: '1.4 mb',
         xodimlar: 4,
-        image: "../../public/mahsulotlar/Alyuminiy romka.jpg"
+        image: "/mahsulotlar/Alyuminiy romka.jpg"
     },
     {
         title: " Shlakablok ishlab chiqarish faoliyatini yoʻlga qoʻyish  biznes rejasi (uzb)   ",
@@ -165,7 +165,7 @@ const mahsulotlar = [
         hujjat_turi: ['doc'],
         hujjat_hajmi: '963.4 kb',
         xodimlar: 4,
-        image: "../../public/mahsulotlar/Shlakablok.jpg"
+        image: "/mahsulotlar/Shlakablok.jpg"
     },
     {
         title: "Bogʻdorchilikni rivojlantirish  biznes rejasi (uzb) ",
@@ -177,7 +177,7 @@ const mahsulotlar = [
         hujjat_turi: ['docx', 'pdf'],
         hujjat_hajmi: '2.7 mb',
         xodimlar: 0,
-        image: "../../public/mahsulotlar/Bog'dorchilik.jpg"
+        image: "/mahsulotlar/Bog'dorchilik.jpg"
     },
     {
         title: " YOGʻOCHNI QAYTA ISHLASH FAOLIYATINI YOʻLGA QOʻYISH  MAQSADIDA KREDIT MABLAGʻLARI JALB QILISH BIZNES REJASI (uzb) ",
@@ -189,7 +189,7 @@ const mahsulotlar = [
         hujjat_turi: ['pdf'],
         hujjat_hajmi: '715.5 kb',
         xodimlar: 0,
-        image: "../../public/mahsulotlar/YOGʻOCHNI qayta ishlash.jpg"
+        image: "/mahsulotlar/YOGʻOCHNI qayta ishlash.jpg"
     },
     {
         title: "MAISHIY TEXNIKALAR SAVDOSI BIZNES REJASI (uzb) ",
@@ -201,7 +201,7 @@ const mahsulotlar = [
         hujjat_turi: ['pdf'],
         hujjat_hajmi: '675.5 kb',
         xodimlar: 0,
-        image: "../../public/mahsulotlar/MAISHIY texnika.jpg"
+        image: "/mahsulotlar/MAISHIY texnika.jpg"
     },
     {
         title: "KURYERLIK (YETKAZIB BERISH) XIZMATLARI KOʻRSATISH FAOLIYATINI YOʻLGA QOʻYISH MAQSADIDA KREDIT MABLAGʻLARI JALB QILISH BIZNES REJASI (uzb)",
@@ -213,7 +213,7 @@ const mahsulotlar = [
         hujjat_turi: ['docx'],
         hujjat_hajmi: '285.5 kb',
         xodimlar: 0,
-        image: "../../public/mahsulotlar/KURYERLIK.jpg"
+        image: "/mahsulotlar/KURYERLIK.jpg"
     },
     {
         title: "OZIQ OVQAT DO'KONINI JIHOZLASH MAQSADIDA KREDIT MABLAGʻLARI JALB QILISH BIZNES REJASI (uzb) ",
@@ -225,7 +225,7 @@ const mahsulotlar = [
         hujjat_turi: ['pdf'],
         hujjat_hajmi: '245.5 kb',
         xodimlar: 0,
-        image: "../../public/mahsulotlar/OZIQ ovqat.jpg"
+        image: "/mahsulotlar/OZIQ ovqat.jpg"
     },
     {
         title: " SAMOMOYKA (oʻz- oʻziga xizmat koʻrsatuvchi avtomoyka) biznes rejasi (uzb) ",
@@ -237,7 +237,7 @@ const mahsulotlar = [
         hujjat_turi: ['doc'],
         hujjat_hajmi: '1.7 mb',
         xodimlar: 0,
-        image: "../../public/mahsulotlar/SAMOMOYKA 2.jpg"
+        image: "/mahsulotlar/SAMOMOYKA 2.jpg"
     },
     {
         title: "DORI-DARMONLAR VA TIBBIY BUYUMLAR SAVDOSI (DORIXONA) FAOLIYATINI YOʻLGA QOʻYISH MAQSADIDA KREDIT MABLAGʻLARI JALB QILISH BIZNES REJASI (uzb) ",
@@ -249,7 +249,7 @@ const mahsulotlar = [
         hujjat_turi: ['doc'],
         hujjat_hajmi: '769.3 kb',
         xodimlar: 0,
-        image: "../../public/mahsulotlar/Apteka.jpg"
+        image: "/mahsulotlar/Apteka.jpg"
     },
     {
         title: "LYUFFA (QOZONYUVGʻICH) YETISHTIRISH FAOLIYATINI YOʻLGA QOʻYISH MAQSADIDA KREDIT MABLAGʻLARI JALB QILISH BIZNES REJASI (uzb)",
@@ -261,7 +261,7 @@ const mahsulotlar = [
         hujjat_turi: ['docx', 'pdf'],
         hujjat_hajmi: '1.9 mb',
         xodimlar: 0,
-        image: "../../public/mahsulotlar/QOZONYUVGʻICH.jpg"
+        image: "/mahsulotlar/QOZONYUVGʻICH.jpg"
     },
     {
         title: "STOMATOLOGIYA  XIZMATLARI KOʻRSATISH FAOLIYATINI YOʻLGA QOʻYISH MAQSADIDA KREDIT MABLAGʻLARI JALB QILISH BIZNES REJASI (uzb) ",
@@ -273,7 +273,7 @@ const mahsulotlar = [
         hujjat_turi: ['docx', 'pdf'],
         hujjat_hajmi: '1.2 mb',
         xodimlar: 0,
-        image: "../../public/mahsulotlar/STOMATOLOGIYA.jpg"
+        image: "/mahsulotlar/STOMATOLOGIYA.jpg"
     },
     {
         title: "TURISTIK MARKAZLAR VA XIYOBONLARDA MINI ELEKTROBUS XIZMATLARI KOʻRSATISH FAOLIYATINI YOʻLGA QOʻYISH MAQSADIDA KREDIT MABLAGʻLARI JALB QILISH BIZNES REJASI (uzb) ",
@@ -285,7 +285,7 @@ const mahsulotlar = [
         hujjat_turi: ['docx', 'pdf'],
         hujjat_hajmi: '4.6 mb',
         xodimlar: 0,
-        image: "../../public/mahsulotlar/TURISTIK Elektrobus.jpg"
+        image: "/mahsulotlar/TURISTIK Elektrobus.jpg"
     },
     {
         title: "BUXGALTERIYA XIZMATLARI KOʻRSATISH FAOLIYATINI YOʻLGA QOʻYISH MAQSADIDA KREDIT MABLAGʻLARI JALB QILISH BIZNES REJASI (uzb) ",
@@ -297,7 +297,7 @@ const mahsulotlar = [
         hujjat_turi: ['docx', 'pdf'],
         hujjat_hajmi: '2.3 mb',
         xodimlar: 0,
-        image: "../../public/mahsulotlar/BUXGALTERIYA.jpg"
+        image: "/mahsulotlar/BUXGALTERIYA.jpg"
     },
     {
         title: "Avtomobillarga texnik xizmat koʻrsatish (vulkanizatsiya,razval, balansirovka) faoliyatini yoʻlga qoʻyish  biznes rejasi (uzb) ",
@@ -309,7 +309,7 @@ const mahsulotlar = [
         hujjat_turi: ['docx'],
         hujjat_hajmi: '283.0 kb',
         xodimlar: 3,
-        image: "../../public/mahsulotlar/vulkanizatsiya.jpg"
+        image: "/mahsulotlar/vulkanizatsiya.jpg"
     },
     {
         title: "ABITURIYENTLAR TAYYORLASH OʻQUV MARKAZINI JIHOZLASH MAQSADIDA KREDIT MABLAGʻLARI JALB QILISH BIZNES REJASI (uzb) ",
@@ -321,7 +321,7 @@ const mahsulotlar = [
         hujjat_turi: ['docx'],
         hujjat_hajmi: '373.5 kb',
         xodimlar: 0,
-        image: "../../public/mahsulotlar/O'quv markaz.jpg"
+        image: "/mahsulotlar/O'quv markaz.jpg"
     },
 ]
 
