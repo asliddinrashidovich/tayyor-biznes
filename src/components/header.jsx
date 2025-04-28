@@ -1,10 +1,26 @@
+"use client"
+
 import Image from "next/image"
+import { useEffect, useState } from "react";
 import { FaShoppingBag } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 
 function Header() {
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+        setScrolled(window.scrollY > 50);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        
+        return () => {
+        window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
   return (
-    <header className=" fixed w-full z-1">
+    <header className={`fixed  w-full z-1 ${ scrolled ? "bg-[#353a40]" : "bg-transparent"}`}>
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
             <div className="flex h-16 items-center justify-between">
             <div className="flex-1 flex md:items-center md:gap-12">
@@ -17,11 +33,11 @@ function Header() {
                 <nav aria-label="Global" className="hidden md:block">
                 <ul className="flex items-center gap-6 text-sm">
                     <li>
-                        <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Biznes rejalar </a>
+                        <a className="transition hover:text-gray-500/75" href="#"> Biznes rejalar </a>
                     </li>
 
                     <li>
-                        <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Contact </a>
+                        <a className=" transition hover:text-gray-500/75" href="#"> Contact </a>
                     </li>
                 </ul>
                 </nav>

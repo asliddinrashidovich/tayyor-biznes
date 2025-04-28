@@ -1,13 +1,15 @@
 import About from "@/components/about"
-import Header from "@/components/header"
 import Hero from "@/components/hero"
+import Results from "@/components/results"
+import Tafsiya from "@/components/tafsiya"
 
 function Page() {
   return (
     <>
-      <Header/> 
       <Hero/>
       <About/>
+      <Results/>
+      <Tafsiya/>
     </>
   )
 }
