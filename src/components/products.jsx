@@ -3,11 +3,13 @@
 import mahsulotlar from "@/data/data"
 import Image from "next/image"
 import { useRouter } from "next/navigation"
+import nProgress from "nprogress"
 
 function Products() {
     const router = useRouter()
     function handleClick(id) {
         router.push(`/mahsulotlar/${id}`)
+        nProgress.start()
     }
   return (
     <div className="pt-[100px] px-[20px] md:px-[40px]">
@@ -20,13 +22,12 @@ function Products() {
                     </div>
                     <div className="px-6 py-4">
                         <h2 onClick={() => handleClick(i)} className="font-bold capitalize hover:underline cursor-pointer text-[15px] mb-2 line-clamp-3">{item.title}</h2>
-                        <p className="opacity-[50%] text-[14px] cursor-pointer hover:underline">Batafsil</p>
                         <br/>
                         <div className="flex justify-between items-center">
                             {item.narxi.toLocaleString()} so'm
-                            <button
+                            <button onClick={() => handleClick(i)} 
                                 className="rounded-md flex items-center gap-[7px] bg-teal-600 px-5 py-2.5 text-sm font-medium cursor-pointer text-white shadow">
-                                    Savatga
+                                    Ko'rish
                             </button>
                         </div>
                     </div>

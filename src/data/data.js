@@ -323,6 +323,18 @@ const mahsulotlar = [
         xodimlar: 0,
         image: "/mahsulotlar/O'quv markaz.jpg"
     },
+    {
+        title: "Metall konstruksiyali mahsulotlar (temir darvoza,temir panjara,metaldan yasalgan har xil stol stullar, issiqxona,surtok, va boshqalar) ishlab chiqarish biznes rejasi (uzb)  ",
+        kridit: 100,
+        yil: 2025,
+        narxi: 130000,
+        holati: true,
+        varaqlar: 20,
+        hujjat_turi: ['doc'],
+        hujjat_hajmi: '1.2 mb',
+        xodimlar: 0,
+        image: "/mahsulotlar/Metall konstruksiyali.jpg"
+    },
 ]
 
 export default mahsulotlar

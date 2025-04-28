@@ -2,6 +2,7 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import NProgressProvider from "@/components/nprogress";
 
 const dmSans = DM_Sans({
   variable: "--font-geist-sans",
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         className={`${dmSans.variable} antialiased`}
       >
         <Header/>
+        <NProgressProvider />
         {children}
         <Footer/>
       </body>
