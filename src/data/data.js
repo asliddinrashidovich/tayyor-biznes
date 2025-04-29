@@ -1,13 +1,13 @@
 const mahsulotlar = [
     {
-        title: 'ACHCHIQ QALAMPIR YETISHTIRISH FAOLIYATINI YOʻLGA QOʻYISH MAQSADIDA KREDIT MABLAGʻLARI JALB QILISH BIZNES REJASI (uzb)',
+        title: "ACHCHIQ QALAMPIR YETISHTIRISH FAOLIYATINI YOʻLGA QOʻYISH MAQSADIDA KREDIT MABLAGʻLARI JALB QILISH BIZNES REJASI (uzb)",
         kridit: 50,
         yil: 2025,
         narxi: 120000,
         holati: true,
         varaqlar: 21,
         hujjat_turi: ['docx', 'pdf'],
-        hujjat_hajmi: '1.4 mb',
+        hujjat_hajmi: "1.4 mb",
         xodimlar: 0,
         image: '/mahsulotlar/qalampir.jpg'
     },
